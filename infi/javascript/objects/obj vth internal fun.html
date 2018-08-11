@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>objects</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		var person={firstname:"anu", lastname:"h", age:23, 
+		fullname:function(){
+		//internal fun;
+			return this.firstname+" "+this.lastname
+		}};
+		//person-obj;
+		document.getElementById('demo').innerHTML=person.fullname();
+	</script>
+</body>
+</html>
+<!--this keyword:-
+	this refers to owner of the fun, in our example this keyword refers to the object person.
+	the person object owns the fullname method or a fun.-->

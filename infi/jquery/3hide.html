@@ -1,0 +1,32 @@
+<!--j-query is a JS library which works as "write less and do more".The purpose of jquery is to make it much easiser to use JS on your web page.
+	It also simplifies lot of complicated things from JS like ajax calls and DOM
+manipulation.
+	Jquery method should always written in a script tag under header.
+	$:-Defines or access jquery
+	$(document).ready:-helps to load a cmplt web page successfully
+	$("selector"):-used to find html elements in a web page
+	Click and hide:-are prdefined methods in jquert
+	Syntax:
+		$(document).ready(function(){
+		//Jquery method goes here
+	});-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("p").hide();
+			});
+		});
+	</script>
+	<title>jquery</title>
+</head>
+<body>
+	<p>heloo infi</p>
+	<button type="button" name="button">hide me</button>
+	
+</body>
+</html>

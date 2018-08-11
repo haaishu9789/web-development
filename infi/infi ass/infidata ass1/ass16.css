@@ -1,0 +1,31 @@
+div{
+	padding-bottom: 10px;
+}
+#div1{
+	background-color: rgba(0,255,255,0.8);
+	color: rgba(255,0,0,.9);
+}
+#div2{
+	background-color: rgb(255,0,0,0.3);
+	color: rgba(255,0,0,0.9);
+}
+#div3{
+	background-color: rgba(255,255,0,0.5);
+	color: rgba(255,0,255,0.9);
+}
+#div4{
+	background-color: rgb(255,0,0,0.5);
+	color: rgba(0,0,255,0.8);
+}
+#div5{
+	background-color: rgba(0,0,255,0.5);
+	color: rgba(255,255,0,0.9);
+}
+#div6{
+	background-color: rgb(0,255,255,0.5);
+	color: rgb(255,0,0,0.7);
+}
+#div7{
+	background-color: rgba(255,0,255);
+	color: rgba(0,255,255,0.9);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact details</title>
+	<style type="text/css">
+		label{text-align: right;
+			width: 300px;float: left;margin-right: 10px;}
+		.n{width: 370px;}
+		h2,div{margin-left: 20px;}
+		button{margin: 7px;}
+		fieldset{background-color: lightgray; width: 800px;border: transparent;position: absolute;left: 18%;top: 17%;}
+	</style>
+</head>
+<body>
+	<fieldset>
+	<h2>Add Contact Details</h2>
+	<label>Name </label><input class="n" type="text" name="name"><br><br>
+	<label>Company </label>
+	<input list="list" name="Company" class="n">
+		<datalist id="list">
+		<option value="IBM"></option>
+		<option value="SAP"></option>
+		<option value="WIPRO"></option>
+		</datalist> <br><br>
+	<label>Title </label><input class="n" type="text" name="title"><br><br>
+	<label>Department </label><input class="n" type="text" name="dpt"><br><br>
+	<label>Phone Number </label><input type="Number" name="no">
+	ext.<input type="text" name="ext"><br><br>
+	<label>Mobile </label><input type="Number" name="Mobile">
+	ext.<input type="text" name="ext"><br><br>
+	<label>Fax </label><input type="text" name="Fax">
+	ext.<input type="text" name="ext"><br><br>
+	<label>E-mail Address </label><input class="n" type="text" name="email"><br><br><br>
+	<hr>
+	<div>
+	<button>SAVE</button>
+	<button>SAVE & ADD ANOTHER</button>
+	<button>CANCEL</button>
+ 	</div>
+ 	</fieldset>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.wrapper{
+			background-image:url('bill.png');
+			width:700px;
+			margin:auto;
+			background-repeat:no-repeat;
+			background-size:100%;
+			padding-top: 15px;
+			padding-bottom: 25px;
+		}
+		label{
+			width:150px;
+			float: left;
+		}
+		
+		input{
+			margin-bottom:10px;
+			padding:5px 5px;
+		}
+		.form-wrapper{
+			width:500px;
+			border:2px solid white;
+			background:rgba(0,0,0,0.5);
+			align-content: center;
+			margin:0 auto;
+			padding: 5px;
+			color: white;
+		}
+		form{
+			margin:20px 0px 10px 30px;
+		}
+		button{
+			border:2px solid black;
+			padding:10px 15px;
+			transition:0.5s;
+		}
+		button:hover{
+			border:2px dotted gold;
+			background:black;
+			color:gold;
+			transition:0.7s;s
+		}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+<h1><center>Billing Info</center></h1>
+<div class="form-wrapper">
+	<form>
+		<label>First Name:-</label><input type="text" name="" placeholder="enter first name"><br>
+		<label>Last Name:-</label><input type="text" name="" placeholder="enter last name"><br>
+		<label>Gender:-</label>
+		Male<input type="radio" name="gender">
+		Female:<input type="radio" name="gender">
+		Others<input type="radio" name="gender"><br>
+		<label>Language-</label>
+		Kannada<input type="checkbox" name="">
+		English<input type="checkbox" name="">
+		French<input type="checkbox" name=""><br>
+		<label>Email</label><input type="text" name="" placeholder="enter valid Email Address"><br>
+		<label>Address</label><textarea></textarea><br>
+		<label>State:</label>
+		<input list="card type" name="card type" placeholder="choose credit card">
+		<datalist id="card type">
+		<option value="balance transfor"></option>
+		<option value="prepaid"></option>
+		<option value="secured"></option>
+		</datalist> <br>
+		<label></label><br>
+		<center>
+			<button>SUBMIT</button>
+		</center>
+	</form>
+</div>
+</div>
+</body>
+</html>

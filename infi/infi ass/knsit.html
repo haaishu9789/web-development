@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Knsit</title>
+	<style>
+		body{
+			display: grid;
+			grid-template-areas: "header header header" "nav article ads" "footer footer footer";
+			grid-template-rows: 80px 1fr 70px;
+			grid-template-columns: 20% 1fr 15%;
+			grid-row-gap: 10px;grid-column-gap: 10px;height: 100vh;margin: 0;
+		}
+		header,footer,nav,article,div{
+			padding: 1.2em;background-color: #80808057;color: black;
+		}
+		#pageheader{
+			grid-area: header;
+			text-align: center;
+			padding-bottom: 70px;
+		}
+		#pagefooter{
+			grid-area: footer;
+		}
+		#mainarticle{
+			grid-area: article;
+		}
+		#mainnav{
+			grid-area: nav;
+		}
+		#sideads{
+			grid-area: ads;
+		}
+	</style>
+	<!--gv me a font size relative to 1.2em-->
+</head>
+<body>
+	<img src="kns-logo.png" title="logo" width="200px" height="100px">
+	<header id="pageheader"><h1>KNS Institute Of Technology</h1></header><br>
+	<article id="mainarticle">Article</article>
+	<!--article tag defines an independent self content article/dat-->
+	<nav id="mainnav">Navigation</nav>
+	<div id="sideads">advertizments</div>
+	<footer id="pagefooter">footer</footer>
+</body>
+</html>

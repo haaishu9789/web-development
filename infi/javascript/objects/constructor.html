@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>constructor</title>
+</head>
+<body>
+	<p id="dim1"></p>
+	<p id="dim2"></p>
+	<script type="text/javascript">
+		function person(first,last,age){
+			this.firstname=first;
+			this.lastname=last;
+			this.age=age;
+		}
+		var myfather=new person("harish","H", 50);
+		var mymother=new person("nagveni","k", 40);
+		document.getElementById('dim1').innerHTML="myfather age is "+myfather.age+".";
+		document.getElementById('dim2').innerHTML="mymother age is "+mymother.age+".";
+	</script>
+</body>
+</html>

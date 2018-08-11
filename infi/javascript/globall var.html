@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var me="hi";
+		// global variables are the variables which are declared outside the function and it can be accessable from anywhere 
+		function sayHello()
+		{
+			var me="Hello";
+			document.write(me);
+			//local variables not defined in a fuc then by default global variables can be intialized;
+		} 
+		sayHello();
+		document.write(me); 
+	</script>
+</body>
+</html>

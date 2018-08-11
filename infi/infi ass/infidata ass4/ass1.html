@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>SIMPLE-FORM</title>
+		<style>
+			h1{
+				color:blue;text-align: center;
+			  }
+			h2{
+				color:blue;text-align: center;
+				opacity: 0.9;
+			  }
+			button{
+			border:2px solid black;
+			padding:5px 5px;
+			transition:0.5s;
+			}
+			button:hover{
+			border:2px dotted black;
+			background:blue;
+			color:black;
+			transition:0.7s;
+			}
+			.div{
+				width: 500px;
+			}
+		</style>
+	</head>
+	<body >
+		<form>
+			<div style="-webkit-filter: blur(5px);position:fixed;background-size:cover;/* height:100px; *//* width:100px; */background-image:url(1234.png);left:  0;right:  0;bottom:  0;top:  0;z-index: -1;"></div>
+			<h1><b>A Simple Form</b></h1>
+			<fieldset style="width: 350px;margin-left: 260px;background-color: lightgray;">
+			<h2><i>Form Fundamentals</i></h2>
+			<div style="width: 800px; margin:auto;">
+			<fieldset><legend><b>Customer Info</b></legend>
+			<b>Name:</b>
+			<input type="text" name="Name" placeholder="Enter your name">
+			<br><br>
+			<b>Telephone:</b>
+			<input type="text" name="Telephone" placeholder="Pattern: 1-234-567-8910">
+			<br><br>
+			<b>Email address:</b>
+			<input type="email" name="Email address" placeholder="Enter your email address">
+			<br><br>
+			</fieldset>
+			<br><br>
+			<fieldset><legend><b>Books</b></legend>
+			<input type="text"><b>Quantity(Maximum 5):</b><input type="number" name="">
+			</fieldset>
+			<br><br>
+			<button>SUBMIT</button>
+			<p><b> &#169; 2011 Acme United.All rights reserved.</b></p>
+			</div>
+			</fieldset>
+			</div>
+		</form>
+	</body>
+</html>

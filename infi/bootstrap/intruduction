@@ -1,0 +1,6 @@
+Bootstrap:-
+	 Is a frame work which is developed by twitter employees called "mark oyyo"
+	It is used to responsuive styling in html, css and js using their pre-defined libraries.
+		It is used in 2 ways:-
+			* go to get bootstrap.com and download a bootstrap file and import it into your html page.
+			* import a cdn libraries into your html page directly.

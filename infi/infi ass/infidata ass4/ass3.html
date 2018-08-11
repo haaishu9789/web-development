@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>User-Registration</title>
+	<style type="text/css">
+		label{width:250px;
+			float: left; text-align: left;}
+		input{margin-bottom:10px;
+			padding:10px 20px;}
+			p{text-align: left;}
+	</style>
+</head>
+<body style="background-color: orange;">
+	<center>
+	<h1><b>User Registration</b></h1>
+	<fieldset style="width: 500px;background-color:gray;">
+	<form>
+		<p>Please complete the following form to register with our site:</p>
+		<label>User Name: </label><input type="text" name="User name"><br>
+		<label>Password: </label><input type="Password" name="pwd"><br>
+		<label>Gender:</label><input type="radio" name="Gender">Female
+		<input type="radio" name="Gender">Male<br>
+		<label>How did you hear about us?:</label>
+		<input list="about" name="about" placeholder="Select answer">
+		<datalist id="about">
+		<option value="friends"></option>
+		<option value="family"></option>
+		<option value="colleague"></option>
+		</datalist><br>
+		<label>Please select this box if you wish to be added to our mailing list</label><input type="checkbox" name="box">
+		<p>We will not pass on your details to any third party:</p>
+		<button style="background-color: blue;">Register now</button>
+	</form>
+	</fieldset>
+	</center>
+</body>
+</html>

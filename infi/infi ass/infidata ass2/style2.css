@@ -1,0 +1,27 @@
+body{
+background-color:lightgray;
+}
+.div1{
+color:black;
+text-align: left;
+}
+.div2{
+color:tomato;
+text-align: center;
+}
+.div3{
+color:orange;
+text-align: left;
+}
+.div4{
+color:blue;
+text-align: center;
+}
+.div5{
+color:mediumseagreen;
+text-align: left;
+}
+.div6{
+color:purple;
+text-align: center;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>billing info</title>
+	<style>
+		.body{
+			
+			width: 610px;
+			background: url('billing.png');
+			margin: auto;
+			color: white;
+			size:100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.tab{
+			border-right: solid;
+			border-top: solid;
+			border-left: solid;
+			border-bottom: solid;
+			width: 348px;
+			height: 340px;
+			margin: auto;
+			background: rgba(0,0,0,0.5);
+			padding-bottom: 20px;
+		}
+		.content-tab{
+			width: 500px;
+			height: 800px;
+		}
+		.sub{
+			position: absolute;
+			right: 100px;
+		}
+		.sub input{
+			transition: 0.5s;
+			padding: 50px 20px;
+			background-color: green;
+			border: 2px solid red;
+		}
+		.sub input:hover{
+			transition: 0.7s;
+			background-color: green;
+			border: 2px dotted red;
+			color:black;
+		}
+	</style>
+</head>
+<body>
+	<div class="body">
+	<h1 style="color: black; text-align: center;"><u>Billing Info</u></h1>
+	<form>
+		<div class="tab">
+		<div class="content-tab">
+		<table>
+		<tr>
+		<td>first name:</td>
+		<td class="fname"><input type="text" name="fname" placeholder="enter first name"></td>
+		</tr>
+		<tr>
+		<td>last name:</td>
+		<td><input type="text" name="lname" placeholder="enter last name"></td>
+		</tr>
+		<tr>
+		<td>gender:</td>
+		<td><input type="radio" name="gender" value="female"s>female
+		<input type="radio" name="gender" value="male">male
+		<input type="radio" name="gender" value="other">other</td>
+		<!--value is mandatory for radio to be a user freindly-->
+		</tr>
+		<tr>
+		<td>languages:</td>
+		<td><input type="checkbox" name="kannada">kannada
+		<input type="checkbox" name="english">english
+		<input type="checkbox" name="hindi">hindi</td>
+	    </tr>
+	    <tr>
+	    <td>email:</td>
+	    <td><input type="text" name="email" placeholder="enter a valid email"></td>
+	    </tr>
+	    <tr>
+	    <td>address:</td>
+	    <td><textarea style="height: 100px; width: 200px;overflow-x: scroll; overflow-y: scroll;"></textarea></td>
+	    </tr>
+	    <tr>
+	    <td>state:</td>
+	    <td><input list="state" name="state" placeholder="choose states">
+		<datalist id="state">
+		<!-- here list name and id name should be sam to get the drop down list-->
+		<option value="karnataka"></option>
+		<option value="andrapardesh"></option>
+		<option value="tamilnadu"></option>
+		</datalist></td>
+		</tr>
+		<tr>
+		<td>zip:</td>
+		<td><input type="text" name="zip"></td>
+		</tr>
+		<tr>
+		<td>credit card type:</td>
+		<td><input list="card type" name="card type" placeholder="choose credit card">
+		<datalist id="card type">
+		<option value="balance transfor"></option>
+		<option value="prepaid"></option>
+		<option value="secured"></option>
+		</datalist></td>
+		</tr>
+		<tr>
+		<div class="submit">
+		<td><button>submit</button></td>
+		</div>
+		</tr>
+		</div>
+		
+	</form>
+	</div>
+</body>
+</html>

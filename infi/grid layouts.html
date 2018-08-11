@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid layout</title>
+	<style>
+		body{
+			display: grid;
+			grid-template-areas: "header header header" "nav article ads" "footer footer footer";
+			grid-template-rows: 80px 1fr 70px;
+			grid-template-columns: 20% 1fr 15%;
+			grid-row-gap: 10px;grid-column-gap: 10px;height: 100vh;margin: 0;
+		}
+		header,footer,nav,article,div{
+			padding: 1.2em;background-color: purple;color: white;
+		}
+		#pageheader{
+			grid-area: header;
+			text-align: center;
+		}
+		#pagefooter{
+			grid-area: footer;
+		}
+		#mainarticle{
+			grid-area: article;
+		}
+		#mainnav{
+			grid-area: nav;
+		}
+		#sideads{
+			grid-area: ads;
+		}
+	</style>
+	<!--gv me a font size relative to 1.2em-->
+</head>
+<body>
+	<header id="pageheader">Infidata-Technology</header>
+	<article id="mainarticle">Article</article>/about
+	<!--article tag defines an independent self content article/dat-->
+	<nav id="mainnav">Navigation</nav>/*photo
+	<div id="sideads">advertizments</div>
+	<footer id="pagefooter">footer</footer>
+</body>
+</html>
